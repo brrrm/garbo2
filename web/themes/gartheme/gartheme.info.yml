@@ -1,0 +1,23 @@
+name: gartheme
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - gartheme/base
+  - gartheme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - gartheme/user
+  core/drupal.dropbutton:
+    - gartheme/dropbutton
+  core/drupal.dialog:
+    - gartheme/dialog
+  file/drupal.file:
+    - gartheme/file
+  core/drupal.progress:
+    - gartheme/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.0'
+description: 'Theme voor garbo.nl website'

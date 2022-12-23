@@ -60,3 +60,6 @@
 *.DS_Store
 .AppleDouble
 .LSOverride
+
+# safety
+.env
